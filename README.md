@@ -1,66 +1,184 @@
-# Ex.No.10
-Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
 
-## Date:
-## Reg. No.
+# **Ex. No. 10 – Content Creation (Reports, articles, case studies etc) Using Prompt Patterns**
 
-## Aim:
-To demonstrate how various prompting techniques (query decomposition, decision-making, semantic filtering, etc.) can be employed to create content such as reports, articles, case studies, or creative works like comic books, using ChatGPT or similar models. The objective is to highlight how different prompt structures affect the content's quality, coherence, and structure.
+## **Aim**
 
-## Procedure:
-1.	Introduction to Prompt Patterns: Begin by understanding the following prompt patterns:
-○	Query Decomposition: Breaking down complex queries into smaller, actionable parts.
-○	Decision Making: Asking the model to choose between options or directions.
-○	Answer Engineering: Refining outputs by giving detailed instructions on how to structure or format the answer.
-○	Fact Check List: Ensuring the content is factually accurate, especially for reports or case studies.
-○	Tail Generation: Extending the content logically to create depth in storytelling or analysis.
-○	Menu Actions: Presenting multiple action choices and guiding the AI to select one.
-○	Semantic Filter: Applying filters to control the tone, style, and accuracy of the content.
-2.	Choosing the Content Type: Decide on the type of content you want to create. This could be:
-○	Reports (e.g., industry analysis, sustainability reports, etc.)
-○	Case Studies (e.g., business solutions, technological innovations)
-○	Articles (e.g., opinion pieces, educational articles)
-○	Creative Content (e.g., comic book story, short stories, video scripts)
-3.	For example, you could choose a business report on market trends, a case study on a successful startup, or even a story-based prompt like creating a fictional world for a comic.
-4.	Creating the Prompts:
-○	Start with simple prompts to generate initial content.
-○	Gradually refine the prompts, moving toward more complex techniques like decision-making (asking the model to pick one of several options), tail generation (extending the narrative), and semantic filtering (adjusting style or tone).
-5.	Generating and Refining Outputs: Use the model to generate initial drafts, and then refine the outputs using iterative adjustments:
-○	For a report, prompt the model with basic data, then ask for a deeper analysis and insights.
-○	For creative content, refine the initial story idea with specific details on characters, settings, or actions.
-6.	Review and Evaluation: After generating content, evaluate the outputs for:
-○	Coherence: Is the generated content logical and structured?
-○	Creativity/Originality: Is the content engaging and fresh?
-○	Accuracy: Is the content factually accurate (for reports and case studies)?
-○	Tone and Style: Does the content match the intended tone (formal, creative, educational)?
-________________________________________
-Test Case Scenarios for Content Generation: (USE ANY 2)
-content generation scenarios:
-1.	Business Report on Market Trends
-2.	Case Study on Business Success
-3.	Article on Climate Change
-4.	Creative Writing - Sci-Fi Short Story
-5.	Educational Report on Renewable Energy
-6.	Product Launch Announcement
-7.	Travel Blog Post
-8.	Research Paper on Artificial Intelligence
-9.	Interview Transcript for Documentary
-10.	Sustainability Practices in Fashion
-11.	How to Build an E-commerce Website
-12.	Social Issue Awareness Campaign
-13.	Artificial Intelligence Impact on Healthcare
-## Instructions:
-1.	Select a Topic: Choose a topic (e.g., market trends, climate change, sci-fi story) that interests you.
-2.	Use Basic Prompts: Start by crafting simple, general prompts to generate initial content.
-3.	Refine Your Prompts: Gradually introduce more complexity by adding details, refining the structure, and using different prompt techniques like decision making or semantic filtering.
-4.	Evaluate the Output: Review the generated content for clarity, creativity, and accuracy.
-5.	Iterate for Improvement: Based on the feedback, refine the prompts and regenerate the content as needed.
+To demonstrate how prompting techniques—query decomposition, decision-making, answer engineering, semantic filtering, fact-checking, and tail generation—can be used to create high-quality content such as reports, articles, case studies, and creative writing using AI tools.
 
-## Deliverables:
-1.	First Draft: A basic draft of the report, case study, article, or story generated using simple prompts.
-2.	Refined Content: A more detailed and structured output, achieved by applying more advanced prompt techniques.
-3.	Multiple Versions: Different versions of the content, showing the effect of prompt changes on the output.
-4.	Final Version: The polished version of the content after incorporating feedback and refining the prompts.
+---
 
-## Conclusion:
-By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.
+## **Procedure**
+
+### **1. Introduction to Prompt Patterns**
+
+* **Query Decomposition:** Break complex tasks into smaller parts.
+* **Decision Making:** Let the model choose between options.
+* **Answer Engineering:** Shape structure, tone, depth, and format.
+* **Fact-Check List:** Improve accuracy for reports/case studies.
+* **Tail Generation:** Extend narratives or analyses logically.
+* **Menu Actions:** Provide options and guide model decisions.
+* **Semantic Filtering:** Control tone (formal, creative, narrative, etc.).
+
+---
+
+### **2. Choosing the Content Type**
+
+Selected two content types from the list:
+
+1. **Business Report on Market Trends**
+2. **Creative Writing – Sci-Fi Short Story**
+
+---
+
+### **3. Creating the Prompts**
+
+#### **Basic Prompts (First Drafts)**
+
+* **Business Report:**
+
+  ```
+  Write a basic report on current global market trends.
+  ```
+
+* **Sci-Fi Story:**
+
+  ```
+  Write a short sci-fi story set in the future.
+  ```
+
+#### **Refined Prompts (Using Prompt Patterns)**
+
+* **Query Decomposition:**
+
+  ```
+  Break the report into introduction, data trends, analysis, risks, and predictions.
+  ```
+
+* **Decision Making:**
+
+  ```
+  Choose one sector—technology, healthcare, or energy—and focus the analysis on it.
+  ```
+
+* **Semantic Filtering:**
+
+  ```
+  Write the story in a cinematic tone with emotional depth.
+  ```
+
+* **Tail Generation:**
+
+  ```
+  Extend the story by adding a twist ending revealing a hidden truth.
+  ```
+
+* **Answer Engineering:**
+
+  ```
+  Present the report using headings, bullet points, and a summary.
+  ```
+
+---
+
+## **Test Case Scenario 1: Business Report on Market Trends**
+
+### **First Draft**
+
+```
+Global market trends show increasing digital adoption, e-commerce growth,
+and rising sustainability concerns.
+```
+
+### **Refined Version (Using Prompt Patterns)**
+
+#### **Global Market Trends Report – Technology Sector**
+
+---
+
+### **1. Introduction**
+
+The global market continues shifting toward digital-first operations. The technology sector dominates due to AI, cloud services, automation, and cybersecurity needs.
+
+### **2. Key Data Trends**
+
+* Rising adoption of AI-powered business tools
+* Remote work technologies expanding
+* Cloud service investments increasing
+* Cybersecurity spending rising at ~12% CAGR
+
+### **3. Analysis (Decision-Making Applied)**
+
+The model selected **technology** as the focus sector due to its fastest innovation cycle.
+
+### **4. Risks & Challenges**
+
+* Tightening data privacy regulations
+* Growing sophistication of cyber-attacks
+* Global supply chain vulnerabilities
+
+### **5. Growth Predictions**
+
+* AI market growth accelerating
+* Cloud computing becoming central to enterprise IT
+* Automation-focused startups increasing rapidly
+
+### **6. Summary**
+
+Technology remains the strongest driver of global market transformation, though regulatory and security challenges must be managed.
+
+---
+
+## **Test Case Scenario 2: Creative Writing – Sci-Fi Short Story**
+
+### **First Draft**
+
+```
+In the year 2300, humans explored distant planets. A pilot found a strange signal.
+```
+
+### **Refined Story (Using Prompt Patterns)**
+
+#### **Title: The Last Signal**
+
+In 2300, Captain Mira Patel journeyed through the Orion Belt aboard *Starlight-9*.
+A mysterious signal pulsed like a heartbeat through her ship’s sensors.
+
+Following it, she discovered a floating metallic sphere transmitting an ancient Earth message.
+
+**Tail Generation Applied:**
+The message was a **warning**—recorded by humans from a parallel future where Earth had collapsed.
+
+The sphere unfolded like a blooming metal flower, revealing holograms of a future war. Mira realized the signal was not a threat—but a *second chance*.
+
+She set a new course back to Earth.
+The future would change because she chose to listen.
+
+---
+
+## **Review and Evaluation**
+
+| Parameter        | Findings                                                  |
+| ---------------- | --------------------------------------------------------- |
+| **Coherence**    | Improved significantly with structured prompts.           |
+| **Creativity**   | Tail generation + semantic filters enhanced storytelling. |
+| **Accuracy**     | Fact-check prompting improved report reliability.         |
+| **Tone & Style** | Controlled through semantic filters (formal/creative).    |
+
+---
+
+## **Deliverables Summary**
+
+* **First Draft:** Generated using simple prompts.
+* **Refined Content:** Improved through advanced prompting patterns.
+* **Multiple Versions:** Showed how prompts influence quality and structure.
+* **Final Version:** Polished report and story.
+
+---
+
+## **Conclusion**
+
+Using structured prompting techniques, AI models can produce clear, coherent, and creative content. Prompt patterns such as query decomposition, decision-making, semantic filtering, and tail generation significantly enhance the quality, accuracy, and depth of generated reports, stories, and case studies. This experiment demonstrates the importance of prompt design in achieving high-quality outputs.
+
+---
+
+
