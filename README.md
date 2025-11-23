@@ -1,4 +1,5 @@
-
+#### Date: 22.11.2025
+#### Reg no: 212223060023
 # **Ex. No. 10 – Content Creation (Reports, articles, case studies etc) Using Prompt Patterns**
 
 ## **Aim**
@@ -7,178 +8,316 @@ To demonstrate how prompting techniques—query decomposition, decision-making, 
 
 ---
 
-## **Procedure**
+# **Procedure**
 
-### **1. Introduction to Prompt Patterns**
+## **1. Study of Prompt Patterns**
 
-* **Query Decomposition:** Break complex tasks into smaller parts.
-* **Decision Making:** Let the model choose between options.
-* **Answer Engineering:** Shape structure, tone, depth, and format.
-* **Fact-Check List:** Improve accuracy for reports/case studies.
-* **Tail Generation:** Extend narratives or analyses logically.
-* **Menu Actions:** Provide options and guide model decisions.
-* **Semantic Filtering:** Control tone (formal, creative, narrative, etc.).
+The following prompt patterns were explored:
+
+* **Query Decomposition:** Break a complex goal into smaller tasks.
+* **Decision-Making:** Allow the AI to choose between options.
+* **Answer Engineering:** Shape structure, tone, and output format.
+* **Semantic Filtering:** Control style, tone, creativity, formality.
+* **Fact-Check List:** Ensure factual accuracy.
+* **Tail Generation:** Extend content with deeper insights.
+* **Menu Actions:** Provide multiple actions for the AI to choose.
 
 ---
 
-### **2. Choosing the Content Type**
+## **2. Selecting the Content Types**
 
-Selected two content types from the list:
+Two scenarios were chosen:
 
 1. **Business Report on Market Trends**
 2. **Creative Writing – Sci-Fi Short Story**
 
 ---
 
-### **3. Creating the Prompts**
+## **3. Creating the Prompts**
 
-#### **Basic Prompts (First Drafts)**
-
-* **Business Report:**
-
-  ```
-  Write a basic report on current global market trends.
-  ```
-
-* **Sci-Fi Story:**
-
-  ```
-  Write a short sci-fi story set in the future.
-  ```
-
-#### **Refined Prompts (Using Prompt Patterns)**
-
-* **Query Decomposition:**
-
-  ```
-  Break the report into introduction, data trends, analysis, risks, and predictions.
-  ```
-
-* **Decision Making:**
-
-  ```
-  Choose one sector—technology, healthcare, or energy—and focus the analysis on it.
-  ```
-
-* **Semantic Filtering:**
-
-  ```
-  Write the story in a cinematic tone with emotional depth.
-  ```
-
-* **Tail Generation:**
-
-  ```
-  Extend the story by adding a twist ending revealing a hidden truth.
-  ```
-
-* **Answer Engineering:**
-
-  ```
-  Present the report using headings, bullet points, and a summary.
-  ```
+Prompts were built in **layers**, starting simple and becoming more advanced using the above patterns.
 
 ---
 
-## **Test Case Scenario 1: Business Report on Market Trends**
 
-### **First Draft**
+# **Test Case 1: Business Report**
+
+# **FIRST DRAFT OUTPUT (Basic Prompt)**
+
+### **Basic Prompt**
 
 ```
-Global market trends show increasing digital adoption, e-commerce growth,
-and rising sustainability concerns.
+Write a simple report on current global market trends.
 ```
 
-### **Refined Version (Using Prompt Patterns)**
-
-#### **Global Market Trends Report – Technology Sector**
-
----
-
-### **1. Introduction**
-
-The global market continues shifting toward digital-first operations. The technology sector dominates due to AI, cloud services, automation, and cybersecurity needs.
-
-### **2. Key Data Trends**
-
-* Rising adoption of AI-powered business tools
-* Remote work technologies expanding
-* Cloud service investments increasing
-* Cybersecurity spending rising at ~12% CAGR
-
-### **3. Analysis (Decision-Making Applied)**
-
-The model selected **technology** as the focus sector due to its fastest innovation cycle.
-
-### **4. Risks & Challenges**
-
-* Tightening data privacy regulations
-* Growing sophistication of cyber-attacks
-* Global supply chain vulnerabilities
-
-### **5. Growth Predictions**
-
-* AI market growth accelerating
-* Cloud computing becoming central to enterprise IT
-* Automation-focused startups increasing rapidly
-
-### **6. Summary**
-
-Technology remains the strongest driver of global market transformation, though regulatory and security challenges must be managed.
-
----
-
-## **Test Case Scenario 2: Creative Writing – Sci-Fi Short Story**
-
-### **First Draft**
+### **Output**
 
 ```
-In the year 2300, humans explored distant planets. A pilot found a strange signal.
+Global markets are experiencing rapid digital transformation, increasing
+e-commerce usage, rising sustainability awareness, and shifting consumer behavior.
 ```
 
-### **Refined Story (Using Prompt Patterns)**
+---
 
-#### **Title: The Last Signal**
+# **ADVANCED PROMPTS (With Patterns)**
 
-In 2300, Captain Mira Patel journeyed through the Orion Belt aboard *Starlight-9*.
-A mysterious signal pulsed like a heartbeat through her ship’s sensors.
+## **1. Query Decomposition**
 
-Following it, she discovered a floating metallic sphere transmitting an ancient Earth message.
+```
+Break the market trends report into:
+1. Introduction
+2. Data Trends
+3. Sector Analysis
+4. Opportunities
+5. Risks
+6. Future Predictions
+```
 
-**Tail Generation Applied:**
-The message was a **warning**—recorded by humans from a parallel future where Earth had collapsed.
+## **2. Decision-Making Prompt**
 
-The sphere unfolded like a blooming metal flower, revealing holograms of a future war. Mira realized the signal was not a threat—but a *second chance*.
+```
+Select ONE sector for deeper analysis:
+A. Technology
+B. Renewable Energy
+C. Healthcare
 
-She set a new course back to Earth.
-The future would change because she chose to listen.
+Choose the one with the strongest global growth and explain why.
+```
 
 ---
 
-## **Review and Evaluation**
+# **FINAL REPORT OUTPUT (Refined)**
 
-| Parameter        | Findings                                                  |
-| ---------------- | --------------------------------------------------------- |
-| **Coherence**    | Improved significantly with structured prompts.           |
-| **Creativity**   | Tail generation + semantic filters enhanced storytelling. |
-| **Accuracy**     | Fact-check prompting improved report reliability.         |
-| **Tone & Style** | Controlled through semantic filters (formal/creative).    |
+# **Global Market Trends Report – Technology Sector Focus**
 
----
+## **1. Introduction**
 
-## **Deliverables Summary**
-
-* **First Draft:** Generated using simple prompts.
-* **Refined Content:** Improved through advanced prompting patterns.
-* **Multiple Versions:** Showed how prompts influence quality and structure.
-* **Final Version:** Polished report and story.
+The global economy continues to shift toward digital-first business models.
+Artificial intelligence, automation, and cloud computing are the core drivers of growth.
 
 ---
 
-## **Conclusion**
+## **2. Key Data Trends**
 
-Using structured prompting techniques, AI models can produce clear, coherent, and creative content. Prompt patterns such as query decomposition, decision-making, semantic filtering, and tail generation significantly enhance the quality, accuracy, and depth of generated reports, stories, and case studies. This experiment demonstrates the importance of prompt design in achieving high-quality outputs.
+* 70% of businesses are increasing digital budgets.
+* AI tool adoption is rising across industries.
+* Global cloud spending is growing at >15% annually.
+* Cybersecurity investments increased due to rising threats.
+
+---
+
+## **3. Sector Selection (Decision-Making Output)**
+
+**Chosen Sector: Technology**
+
+**Reason for Selection:**
+Technology shows the fastest global growth due to automation demand, digital services, rising AI integration, and strong venture capital inflows.
+
+---
+
+## **4. Detailed Analysis**
+
+* AI markets expanding rapidly with enterprise integration
+* Remote/hybrid work tools driving SaaS growth
+* Chip manufacturing expanding due to global shortages
+* Cybersecurity becoming a priority globally
+
+---
+
+## **5. Risks & Challenges**
+
+* Tighter data privacy regulations
+* Cyber threats growing in complexity
+* Semiconductor supply chain instability
+
+---
+
+## **6. Future Predictions**
+
+* AI will automate 25–40% of routine tasks
+* Cloud computing becomes dominant in enterprise IT
+* Global tech investments will continue to rise
+* New markets emerge in IoT, robotics, and edge computing
+
+---
+
+## **7. Tail Generation – Analyst Recommendations**
+
+* Invest in cybersecurity-focused companies
+* Adopt cloud-based infrastructures
+* Focus on AI-driven productivity tools
+* Train workforce for automation
+* Strengthen digital compliance frameworks
 
 ---
 
 
+# **Test Case 2: Creative Writing – Sci-Fi Story**
+
+
+# **FIRST DRAFT OUTPUT (Basic Prompt)**
+
+### **Basic Prompt**
+
+```
+Write a short sci-fi story set in the future.
+```
+
+### **Output**
+
+```
+In the year 2300, humans explored new planets. A pilot found a strange signal that changed everything.
+```
+
+---
+
+# **ADVANCED PROMPTS (With Patterns)**
+
+## **1. Query Decomposition**
+
+```
+Break the story into:
+1. Setting
+2. Main Character
+3. Conflict
+4. Discovery
+5. Resolution
+```
+
+---
+
+## **2. Decision-Making Prompt**
+
+```
+Select ONE sub-genre:
+A. Space Exploration
+B. AI Civilization
+C. Time Travel
+D. Parallel Worlds
+
+Choose the one that creates the most emotional impact.
+```
+
+---
+
+## **3. Semantic Filtering**
+
+```
+Rewrite the story in a cinematic, emotional, visually rich style.
+```
+
+---
+
+## **4. Answer Engineering**
+
+```
+Use this structure:
+
+# Title
+## Opening Scene
+## Rising Action
+## Discovery
+## Plot Twist
+## Resolution
+## Epilogue
+```
+
+---
+
+## **5. Tail Generation Prompt**
+
+```
+Add an epilogue showing how the protagonist’s decision changed the future.
+```
+
+---
+
+# **FINAL STORY OUTPUT (Refined)**
+
+# **The Last Signal**
+
+## **Opening Scene**
+
+The year was 2300. Captain Mira Patel sailed through the Orion Belt aboard *Starlight-9*.
+The void was quiet—too quiet—until a pulse hit her sensors.
+
+It was rhythmic.
+Almost… alive.
+
+---
+
+## **Rising Action**
+
+The signal led Mira to a silver sphere floating in space, perfectly symmetrical, reflecting distant nebulae.
+
+As she approached, the hull vibrated like a heartbeat.
+
+---
+
+## **Discovery**
+
+The sphere opened like a mechanical flower, projecting holographic memories—cities burning, oceans rising, and humanity fleeing Earth.
+
+These weren’t visions of the past.
+
+They were messages from a **future timeline** where Earth had already fallen.
+
+---
+
+## **Plot Twist**
+
+The signal wasn’t a warning.
+
+It was a *second chance*.
+
+The sphere contained blueprints—technology humanity had never seen.
+
+---
+
+## **Resolution**
+
+Mira turned her ship around.
+
+She carried hope in the form of light.
+
+---
+
+## **Epilogue – The World That Followed**
+
+Her return changed everything.
+Earth avoided collapse.
+Humanity unified and rebuilt.
+
+Generations later, children studied the story of the **captain who answered the last signal**.
+
+And saved their future.
+
+---
+
+
+# **Evaluation**
+
+| Parameter      | Observation                                                     |
+| -------------- | --------------------------------------------------------------- |
+| **Coherence**  | Structured prompts improved flow and clarity.                   |
+| **Creativity** | Semantic filtering + tail generation enhanced the sci-fi story. |
+| **Accuracy**   | Fact-check prompts increased reliability in the report.         |
+| **Variation**  | Multiple versions showed how prompts shape the final output.    |
+
+---
+
+# **Deliverables**
+
+* **First Drafts**: Generated using simple prompts
+* **Refined Versions**: Using advanced patterns
+* **Multiple Versions**: Show the effect of prompt changes
+* **Final Versions**: Polished and structured outputs
+
+---
+
+# **Conclusion**
+
+This experiment demonstrates that by applying structured prompting techniques—such as query decomposition, answer engineering, fact-checking, semantic filtering, decision-making, and tail generation—AI models can produce high-quality content tailored to specific requirements.
+Prompt patterns significantly influence clarity, tone, structure, creativity, and accuracy.
+
+---
